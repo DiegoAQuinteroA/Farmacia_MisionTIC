@@ -1,0 +1,41 @@
+Planteamiento del problema
+
+La farmacia misión tic tiene 4 almacenes ubicados así oriente, occidente, norte y sur, cada almacén contiene un lote de productos que se clasifican en productos refrigerados y no refrigerados. Se requiere llevar mayor control de los datos que allí disponen, el líder de desarrollo decide contratar a su grupo de trabajo y le indica lo siguiente:
+
+De cada producto se tienen los siguientes datos.
+
+Nombre, de tipo String.
+ID: código del producto, de tipo String.
+temperatura (temperatura a la que se almacena), de tipo double.
+Valor base de almacenamiento, double
+A continuación, se presenta un ejemplo de productos registrados:
+
+ Tabla 1
+
+La siguiente tabla muestra los costos de almacenamiento por unidad de producto según su tipo de refrigeración:
+
+ Tabla 2
+
+Actualmente se cuenta con el siguiente diagrama de clases
+
+imagen(clases)
+
+
+ Planteamiento del reto
+
+Dada la situación planteada, el administrador de la farmacia te explica que ya tienen implementadas las clases Farmacia, Almacén, Lote, y ProductoRefrigerado. Por cambios en la compañía, se hace necesario calcular el costo de almacenamiento de los productos no refrigerados, y es por este motivo que te han contratado para implementar la clase ProductoNoRefrigerado, teniendo en cuenta que el costo de almacenamiento está basado en la información de la tabla 2.
+
+
+ Acciones
+
+Analizar e identificar las variables que considere necesarias para la correcta ejecución del programa.
+Interpretar el diagrama de clase.
+Realizar las implementaciones adicionales que requiere el problema
+Comprender el encadenamiento de constructores
+
+Solución
+
+Escribir el código de la clase ProductoNoRefrigerado que cumpla con los siguientes requisitos:
+
+-Debe heredar de la clase Producto
+-Realizar la implementación del método calcularCostoDeAlmacenamiento() según los requerimientos del contexto.

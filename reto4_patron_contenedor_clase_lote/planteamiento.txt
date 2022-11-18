@@ -1,0 +1,27 @@
+Planteamiento de la situación
+
+Dentro de las actividades de desarrollo de software de la compañía donde trabajas se utiliza tecnología Java, en uno de los proyecto surge la situación de agregar productos a un lote. El scrum master de tu equipo de desarrollo te asigna la incidencia para implementar un patrón contenedor a la clase Lote
+
+imagen(clases)
+
+
+ Planteamiento del reto
+
+Teniendo en cuenta que la clases Producto, Almacen, Farmacia, ProductoRefrigerado y ProductoNoRefrigerado ya están implementadas ¿De qué manera puedes realizar el nuevo desarrollo que cumpla con el requerimiento solicitado ?
+
+  analicis
+
+Analizar la situación problema
+Diseñar la clase con los métodos y atributos que considere necesarios
+Verificar que la colección seleccionada cumple con lo solicitado por el scrum master 
+Interpretar el diagrama UML
+Aplicar un patrón de diseño 
+
+ Solución
+
+Cree una clase llamada Lote
+Definir un atributo que cumpla con lo solicitado por el scrum master
+Implementar un método que permita agregar productos a la clase Lote
+Aplicar el patrón contenedor
+
+Nota: Conservar el código que fue precargado. (MVC_reto5)
